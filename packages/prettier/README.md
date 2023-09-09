@@ -8,23 +8,18 @@ pnpm add -D prettier @hiddenraven/prettier-config
 
 Then add the config to your `package.json`:
 
+`package.json`
 ```json
-// package.json
 {
-  //...
   "prettier": "@hiddenraven"
-  //...
 }
 ```
 
 ## If you project uses TailwindCSS
-
+`package.json`
 ```json
-// package.json
 {
-  //...
   "prettier": "@hiddenraven/with-tailwind"
-  //...
 }
 ```
 

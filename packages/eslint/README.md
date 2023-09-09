@@ -9,7 +9,7 @@ pnpm add -D eslint @hiddenraven/eslint-config
 Then add the plugin to your ESLint config:
 
 ```js
-// prettier.config.cjs
+// .eslintrc.cjs
 module.exports = {
   extends: [
     '@hiddenraven/base'
