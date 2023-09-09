@@ -1,6 +1,10 @@
 {
   "name": "@hiddenraven/eslint-config",
   "version": "0.2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexisWalravens/hiddenraven-config/tree/main/packages/eslint"
+  },
   "main": "./src/base.js",
   "exports": {
     "./base": "./src/base.js",
