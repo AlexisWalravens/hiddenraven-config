@@ -16,6 +16,9 @@
     },
     "//#clean": {
       "cache": false
+    },
+    "ci": {
+      "dependsOn": ["lint", "typecheck"]
     }
   }
 }
