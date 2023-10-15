@@ -1,6 +1,6 @@
 {
   "name": "@hiddenraven/eslint-config",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/AlexisWalravens/hiddenraven-config/tree/main/packages/eslint"
@@ -30,7 +30,7 @@
     "eslint-plugin-react-hooks": "^4.6.0"
   },
   "devDependencies": {
-    "@hiddenraven/prettier-config": "^0.1.0",
+    "@hiddenraven/prettier-config": "^0.1.1",
     "@hiddenraven/tsconfig": "^0.1.0",
     "eslint": "^8.51.0",
     "typescript": "^5.2.2"
