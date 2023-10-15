@@ -30,8 +30,8 @@
     "eslint-plugin-react-hooks": "^4.6.0"
   },
   "devDependencies": {
-    "@hiddenraven/prettier-config": "^0.1.1",
-    "@hiddenraven/tsconfig": "^0.1.0",
+    "@hiddenraven/prettier-config": "*",
+    "@hiddenraven/tsconfig": "*",
     "eslint": "^8.51.0",
     "typescript": "^5.2.2"
   },

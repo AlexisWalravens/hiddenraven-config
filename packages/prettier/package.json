@@ -21,7 +21,7 @@
     "prettier-plugin-tailwindcss": "^0.5.6"
   },
   "devDependencies": {
-    "@hiddenraven/tsconfig": "^0.1.0",
+    "@hiddenraven/tsconfig": "*",
     "typescript": "^5.2.2"
   },
   "prettier": "index.mjs"
