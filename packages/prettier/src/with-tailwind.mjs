@@ -1,5 +1,5 @@
-/** @typedef  {import("prettier").Config} PrettierConfig */
-/** @typedef  {import("@ianvs/prettier-plugin-sort-imports").PluginConfig} SortImportsConfig */
+/** @typedef {import("prettier").Config} PrettierConfig */
+/** @typedef {import("@ianvs/prettier-plugin-sort-imports").PluginConfig} SortImportsConfig */
 /** @typedef {import("prettier-plugin-tailwindcss").PluginOptions} TailwindConfig */
 
 import defaultConfig from './index.mjs'
