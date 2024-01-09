@@ -10,7 +10,10 @@ const config = {
   printWidth: 80,
   singleQuote: true,
   jsxSingleQuote: false,
-  plugins: ['@ianvs/prettier-plugin-sort-imports'],
+  plugins: [
+    'prettier-plugin-packagejson',
+    '@ianvs/prettier-plugin-sort-imports'
+  ],
   importOrder: [
     '^(react/(.*)$)|^(react$)|^(react-native(.*)$)',
     '^(next/(.*)$)|^(next$)',
