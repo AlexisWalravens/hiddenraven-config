@@ -1,5 +1,12 @@
 # @hiddenraven/prettier-config
 
+## 0.2.0
+
+### Minor Changes
+
+- 5e1b52b: - Update dependencies
+  - added [`prettier-plugin-packagejson`](https://www.npmjs.com/package/prettier-plugin-packagejson) to prettier default config
+
 ## 0.1.3
 
 ### Patch Changes

@@ -1,5 +1,12 @@
 # @hiddenraven/eslint-config
 
+## 0.2.6
+
+### Patch Changes
+
+- 5e1b52b: - Update dependencies
+  - added [`prettier-plugin-packagejson`](https://www.npmjs.com/package/prettier-plugin-packagejson) to prettier default config
+
 ## 0.2.5
 
 ### Patch Changes
