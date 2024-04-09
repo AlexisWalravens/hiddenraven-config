@@ -1,5 +1,12 @@
 # @hiddenraven/prettier-config
 
+## 0.2.1
+
+### Patch Changes
+
+- 6774876: \* Update dependencies
+  - Warn that we do not support eslint v9 yet
+
 ## 0.2.0
 
 ### Minor Changes
