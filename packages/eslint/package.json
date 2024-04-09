@@ -5,41 +5,44 @@
     "type": "git",
     "url": "https://github.com/AlexisWalravens/hiddenraven-config/tree/main/packages/eslint"
   },
-  "main": "./src/base.js",
+  "license": "MIT",
   "exports": {
     "./base": "./src/base.js",
     "./react": "./src/react.js",
     "./nextjs": "./src/nextjs.js"
   },
-  "license": "MIT",
+  "main": "./src/base.js",
   "scripts": {
     "clean": "rm -rf .turbo node_modules",
-    "lint": "eslint .",
     "format": "prettier --check \"**/*.{mjs,ts,md,json}\"",
+    "lint": "eslint .",
     "typecheck": "tsc --noEmit"
   },
+  "prettier": "@hiddenraven/prettier-config",
+  "eslintConfig": {
+    "extends": [
+      "./src/base.js"
+    ],
+    "root": true
+  },
   "dependencies": {
-    "@next/eslint-plugin-next": "^14.0.4",
-    "@types/eslint": "^8.56.1",
-    "@typescript-eslint/eslint-plugin": "^6.18.1",
-    "@typescript-eslint/parser": "^6.18.1",
+    "@next/eslint-plugin-next": "^14.1.4",
+    "@types/eslint": "^8.56.7",
+    "@typescript-eslint/eslint-plugin": "^7.6.0",
+    "@typescript-eslint/parser": "^7.6.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jsx-a11y": "^6.8.0",
-    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0"
   },
   "devDependencies": {
     "@hiddenraven/prettier-config": "*",
     "@hiddenraven/tsconfig": "*",
-    "eslint": "^8.56.0",
-    "typescript": "^5.3.3"
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.4"
   },
-  "eslintConfig": {
-    "root": true,
-    "extends": [
-      "./src/base.js"
-    ]
-  },
-  "prettier": "@hiddenraven/prettier-config"
+  "peerDependencies": {
+    "eslint": "^8.0.0"
+  }
 }
