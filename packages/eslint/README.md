@@ -1,3 +1,6 @@
+# ⚠️ Warning `eslint` v9 is not yet supported
+Use v8 and the `.eslintrc` config file until then.
+
 # Installation
 
 Install `@hiddenraven/eslint-config`

@@ -5,25 +5,25 @@
     "type": "git",
     "url": "https://github.com/AlexisWalravens/hiddenraven-config/tree/main/packages/prettier"
   },
-  "main": "./src/index.mjs",
   "exports": {
     ".": "./src/index.mjs",
     "./with-tailwind": "./src/with-tailwind.mjs"
   },
+  "main": "./src/index.mjs",
   "scripts": {
     "clean": "rm -rf .turbo node_modules",
     "format": "prettier --check \"**/*.{mjs,ts,md,json}\"",
     "typecheck": "tsc --noEmit"
   },
+  "prettier": "./src/index.mjs",
   "dependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
-    "prettier": "^3.1.1",
-    "prettier-plugin-packagejson": "^2.4.9",
-    "prettier-plugin-tailwindcss": "^0.5.11"
+    "@ianvs/prettier-plugin-sort-imports": "^4.2.1",
+    "prettier": "^3.2.5",
+    "prettier-plugin-packagejson": "^2.4.14",
+    "prettier-plugin-tailwindcss": "^0.5.13"
   },
   "devDependencies": {
     "@hiddenraven/tsconfig": "*",
-    "typescript": "^5.3.3"
-  },
-  "prettier": "index.mjs"
+    "typescript": "^5.4.4"
+  }
 }
