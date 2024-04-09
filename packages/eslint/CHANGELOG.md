@@ -1,5 +1,12 @@
 # @hiddenraven/eslint-config
 
+## 0.2.7
+
+### Patch Changes
+
+- 6774876: \* Update dependencies
+  - Warn that we do not support eslint v9 yet
+
 ## 0.2.6
 
 ### Patch Changes
