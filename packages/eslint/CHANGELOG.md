@@ -1,5 +1,11 @@
 # @hiddenraven/eslint-config
 
+## 1.0.0
+
+### Major Changes
+
+- 43e8f05: - Upgrade eslint config to eslint v9
+
 ## 0.2.6
 
 ### Patch Changes
