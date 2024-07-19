@@ -18,7 +18,7 @@
       "cache": false
     },
     "ci": {
-      "dependsOn": ["lint", "typecheck"]
+      "dependsOn": ["lint", "typecheck", "lint:ws"]
     }
   }
 }
