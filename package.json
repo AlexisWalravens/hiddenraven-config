@@ -1,25 +1,25 @@
 {
   "name": "hiddenraven-config",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/AlexisWalravens/hiddenraven-config.git"
   },
-  "private": true,
   "scripts": {
     "ci": "turbo ci",
     "clean": "git clean -xdf node_modules",
     "clean:workspaces": "turbo clean",
     "format": "turbo format --continue -- --cache --cache-location='node_modules/.cache/.prettiercache'",
     "format:fix": "turbo format --continue -- --write --cache --cache-location='node_modules/.cache/.prettiercache'",
-    "lint:ws": "pnpm dlx sherif@latest",
+    "postinstall": "pnpm lint:ws",
     "lint": "turbo run lint --continue -- --cache --cache-location node_modules/.cache/.eslintcache",
     "lint:fix": "turbo run lint --continue -- --fix --cache --cache-location node_modules/.cache/.eslintcache",
+    "lint:ws": "pnpm dlx sherif@latest",
     "prepare-release": "changeset",
     "release": "changeset publish",
-    "typecheck": "turbo typecheck",
-    "postinstall": "pnpm lint:ws"
+    "typecheck": "turbo typecheck"
   },
-  "prettier": "./packages/prettier/src/index.mjs",
+  "prettier": "@hiddenraven/prettier-config",
   "devDependencies": {
     "@changesets/cli": "^2.27.7",
     "prettier": "^3.3.3",

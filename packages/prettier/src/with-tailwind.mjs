@@ -8,6 +8,7 @@ import defaultConfig from './index.mjs'
 const config = {
   ...defaultConfig,
   plugins: [
+    'prettier-plugin-packagejson',
     '@ianvs/prettier-plugin-sort-imports',
     'prettier-plugin-tailwindcss'
   ]

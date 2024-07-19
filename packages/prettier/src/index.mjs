@@ -14,12 +14,15 @@ const config = {
     'prettier-plugin-packagejson',
     '@ianvs/prettier-plugin-sort-imports'
   ],
+  tailwindFunctions: ['cn', 'cva'],
   importOrder: [
+    '<TYPES>',
     '^(react/(.*)$)|^(react$)|^(react-native(.*)$)',
     '^(next/(.*)$)|^(next$)',
     '^(expo(.*)$)|^(expo$)',
     '<THIRD_PARTY_MODULES>',
     '',
+    '<TYPES>^@acme',
     '^@acme/(.*)$',
     '',
     '^@/',

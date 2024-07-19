@@ -1,24 +1,23 @@
-/** @type {import('eslint').Linter.Config} */
-const config = {
-  extends: [
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
-    'plugin:jsx-a11y/recommended'
-  ],
-  rules: {
-    'react/prop-types': 'off'
+import reactPlugin from "eslint-plugin-react";
+import hooksPlugin from "eslint-plugin-react-hooks";
+import jsxA11y from 'eslint-plugin-jsx-a11y';
+/** @type {Awaited<import('typescript-eslint').Config>} */
+export default [
+  {
+    files: ["**/*.ts", "**/*.tsx"],
+    plugins: {
+      react: reactPlugin,
+      "react-hooks": hooksPlugin,
+      'jsx-a11y': jsxA11y,
+    },
+    rules: {
+      ...reactPlugin.configs["jsx-runtime"].rules,
+      ...hooksPlugin.configs.recommended.rules,
+    },
+    languageOptions: {
+      globals: {
+        React: "writable",
+      },
+    },
   },
-  globals: {
-    React: 'writable'
-  },
-  settings: {
-    react: {
-      version: 'detect'
-    }
-  },
-  env: {
-    browser: true
-  }
-}
-
-module.exports = config
+];
