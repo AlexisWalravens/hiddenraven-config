@@ -1,5 +1,11 @@
 # @hiddenraven/prettier-config
 
+## 0.2.2
+
+### Patch Changes
+
+- 5f6b812: Make prettier-config package type module
+
 ## 0.2.1
 
 ### Patch Changes

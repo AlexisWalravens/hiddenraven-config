@@ -1,5 +1,11 @@
 # @hiddenraven/eslint-config
 
+## 1.0.1
+
+### Patch Changes
+
+- 5f6b812: Fix eslint config not working
+
 ## 1.0.0
 
 ### Major Changes
