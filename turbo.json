@@ -1,15 +1,22 @@
 {
   "$schema": "https://turborepo.org/schema.json",
-  "pipeline": {
+  "ui": "tui",
+  "tasks": {
     "format": {
-      "outputs": ["node_modules/.cache/.prettiercache"],
-      "outputMode": "new-only"
+      "outputs": [
+        "node_modules/.cache/.prettiercache"
+      ],
+      "outputLogs": "new-only"
     },
     "lint": {
-      "outputs": ["node_modules/.cache/.eslintcache"]
+      "outputs": [
+        "node_modules/.cache/.eslintcache"
+      ]
     },
     "typecheck": {
-      "outputs": ["node_modules/.cache/tsbuildinfo.json"]
+      "outputs": [
+        "node_modules/.cache/tsbuildinfo.json"
+      ]
     },
     "clean": {
       "cache": false
@@ -18,7 +25,10 @@
       "cache": false
     },
     "ci": {
-      "dependsOn": ["lint", "typecheck", "lint:ws"]
+      "dependsOn": [
+        "lint",
+        "typecheck"
+      ]
     }
   }
 }
