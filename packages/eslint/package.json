@@ -6,6 +6,7 @@
     "url": "https://github.com/AlexisWalravens/hiddenraven-config/tree/main/packages/eslint"
   },
   "license": "MIT",
+  "type": "module",
   "exports": {
     "./base": "./src/base.js",
     "./react": "./src/react.js",
@@ -32,6 +33,7 @@
     "eslint-plugin-jsx-a11y": "^6.9.0",
     "eslint-plugin-react": "^7.34.4",
     "eslint-plugin-react-hooks": "rc",
+    "eslint-plugin-turbo": "^2.0.8",
     "typescript-eslint": "rc-v8"
   },
   "devDependencies": {
