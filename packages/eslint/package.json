@@ -10,7 +10,8 @@
   "exports": {
     "./base": "./src/base.js",
     "./react": "./src/react.js",
-    "./nextjs": "./src/nextjs.js"
+    "./nextjs": "./src/nextjs.js",
+    "./turbo": "./src/turbo.js"
   },
   "main": "./src/base.js",
   "scripts": {

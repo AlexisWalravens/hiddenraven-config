@@ -49,3 +49,14 @@ export default [
   ...restrictEnvAccess
 ]
 ```
+
+## If using in a monorepo with
+
+```js
+// eslintrc.config.mjs
+import baseConfig, { restrictEnvAccess } from '@hiddenraven/eslint-config/base'
+import turboConfig from '@hiddenraven/eslint-config/turbo'
+
+/** @type {import('typescript-eslint').Config} */
+export default [...baseConfig, ...turboConfig, ...restrictEnvAccess]
+```

@@ -1,0 +1,9 @@
+{
+  "extends": "@hiddenraven/tsconfig/base.json",
+  "compilerOptions": {
+    "lib": ["esnext", "DOM", "DOM.Iterable"],
+    "jsx": "preserve"
+  },
+  "include": ["."],
+  "exclude": ["node_modules"]
+}

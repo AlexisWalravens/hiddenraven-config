@@ -1,8 +1,5 @@
-/// <reference types="./types.d.ts" />
-
 import eslint from '@eslint/js'
 import importPlugin from 'eslint-plugin-import'
-import turboPlugin from 'eslint-plugin-turbo'
 import tseslint from 'typescript-eslint'
 
 /**
@@ -40,8 +37,7 @@ export default tseslint.config(
   {
     files: ['**/*.js', '**/*.ts', '**/*.tsx'],
     plugins: {
-      import: importPlugin,
-      turbo: turboPlugin
+      import: importPlugin
     },
     extends: [
       eslint.configs.recommended,
@@ -50,7 +46,6 @@ export default tseslint.config(
       ...tseslint.configs.stylisticTypeChecked
     ],
     rules: {
-      ...turboPlugin.configs.recommended.rules,
       '@typescript-eslint/no-unused-vars': [
         'error',
         { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }
