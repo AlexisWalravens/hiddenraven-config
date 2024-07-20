@@ -1,5 +1,11 @@
 # @hiddenraven/eslint-config
 
+## 1.0.2
+
+### Patch Changes
+
+- c29b8f9: Externalise eslint turbo config
+
 ## 1.0.1
 
 ### Patch Changes
