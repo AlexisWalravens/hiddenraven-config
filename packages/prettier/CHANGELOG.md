@@ -1,5 +1,11 @@
 # @hiddenraven/prettier-config
 
+## 0.2.3
+
+### Patch Changes
+
+- 69b4092: Update dependencies
+
 ## 0.2.2
 
 ### Patch Changes

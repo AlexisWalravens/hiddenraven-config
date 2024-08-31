@@ -1,5 +1,11 @@
 # @hiddenraven/eslint-config
 
+## 1.0.3
+
+### Patch Changes
+
+- 69b4092: Update dependencies
+
 ## 1.0.2
 
 ### Patch Changes
