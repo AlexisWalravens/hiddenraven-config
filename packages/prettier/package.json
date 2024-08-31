@@ -20,11 +20,11 @@
   "dependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
     "prettier": "^3.3.3",
-    "prettier-plugin-packagejson": "^2.5.1",
-    "prettier-plugin-tailwindcss": "^0.6.5"
+    "prettier-plugin-packagejson": "^2.5.2",
+    "prettier-plugin-tailwindcss": "^0.6.6"
   },
   "devDependencies": {
     "@hiddenraven/tsconfig": "workspace:*",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.4"
   }
 }
