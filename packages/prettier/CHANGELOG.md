@@ -1,5 +1,12 @@
 # @hiddenraven/prettier-config
 
+## 0.2.4
+
+### Patch Changes
+
+- 50e07b9: - Fix prettier config without tailwind
+  - Update dependencies
+
 ## 0.2.3
 
 ### Patch Changes

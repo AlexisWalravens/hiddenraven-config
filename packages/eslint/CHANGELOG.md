@@ -1,5 +1,12 @@
 # @hiddenraven/eslint-config
 
+## 1.0.4
+
+### Patch Changes
+
+- 50e07b9: - Fix prettier config without tailwind
+  - Update dependencies
+
 ## 1.0.3
 
 ### Patch Changes
