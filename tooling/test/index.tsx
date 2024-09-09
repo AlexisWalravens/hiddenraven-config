@@ -5,9 +5,10 @@ export const test = () => {
 
   return (
     <div
-    // onClick={() => {
-    //   console.log('')
-    // }}
+      className="overflow-hidden bg-red-500 text-white"
+      // onClick={() => {
+      //   console.log('')
+      // }}
     >
       test
     </div>

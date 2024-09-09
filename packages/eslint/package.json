@@ -27,20 +27,20 @@
     "root": true
   },
   "dependencies": {
-    "@eslint/js": "^9.9.1",
-    "@next/eslint-plugin-next": "^14.2.7",
+    "@eslint/js": "^9.10.0",
+    "@next/eslint-plugin-next": "^14.2.8",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-jsx-a11y": "^6.9.0",
-    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-jsx-a11y": "^6.10.0",
+    "eslint-plugin-react": "^7.35.2",
     "eslint-plugin-react-hooks": "rc",
     "eslint-plugin-turbo": "^2.1.1",
-    "typescript-eslint": "^8.3.0"
+    "typescript-eslint": "^8.4.0"
   },
   "devDependencies": {
     "@hiddenraven/prettier-config": "workspace:*",
     "@hiddenraven/tsconfig": "workspace:*",
-    "eslint": "^9.9.1",
+    "eslint": "^9.10.0",
     "typescript": "^5.5.4"
   },
   "peerDependencies": {
