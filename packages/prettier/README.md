@@ -9,6 +9,7 @@ pnpm add -D prettier @hiddenraven/prettier-config
 Then add the config to your `package.json`:
 
 `package.json`
+
 ```json
 {
   "prettier": "@hiddenraven"
@@ -16,10 +17,12 @@ Then add the config to your `package.json`:
 ```
 
 ## If you project uses TailwindCSS
+
 `package.json`
+
 ```json
 {
-  "prettier": "@hiddenraven/with-tailwind"
+  "prettier": "@hiddenraven/prettier-config/with-tailwind"
 }
 ```
 

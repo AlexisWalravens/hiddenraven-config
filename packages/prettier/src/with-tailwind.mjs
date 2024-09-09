@@ -7,6 +7,7 @@ import defaultConfig from './index.mjs'
 /** @type { PrettierConfig | SortImportsConfig | TailwindConfig } */
 const config = {
   ...defaultConfig,
+  tailwindFunctions: ['cn', 'cva'],
   plugins: [...defaultConfig.plugins, 'prettier-plugin-tailwindcss']
 }
 
