@@ -1,5 +1,12 @@
 # @hiddenraven/eslint-config
 
+## 2.0.0
+
+### Major Changes
+
+- fc28a21: - Update dependencies
+  - Add react compiler rules
+
 ## 1.0.4
 
 ### Patch Changes
