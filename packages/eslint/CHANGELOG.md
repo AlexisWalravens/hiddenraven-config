@@ -1,5 +1,11 @@
 # @hiddenraven/eslint-config
 
+## 2.1.0
+
+### Minor Changes
+
+- 0e2f51e: Update dependencies
+
 ## 2.0.0
 
 ### Major Changes
