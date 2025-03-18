@@ -6,38 +6,34 @@ Install `@hiddenraven/prettier-config`
 pnpm add -D prettier @hiddenraven/prettier-config
 ```
 
-Then add the config to your `package.json`:
+Then add the config to your `prettier.config.mjs`:
 
-`package.json`
+`prettier.config.mjs`
 
-```json
-{
-  "prettier": "@hiddenraven"
+```mjs
+import config from '@hiddenraven/prettier-config'
+
+export default {
+  ...config
+  // Overrides
+  // ...
 }
 ```
 
 ## If you project uses TailwindCSS
 
-`package.json`
+`prettier.config.mjs`
 
-```json
-{
-  "prettier": "@hiddenraven/prettier-config/with-tailwind"
-}
-```
-
-## If you want to extend the configuraiton, for example if you need to specify a custom tailwind config path:
-
-Instead of adding the `prettier` key to your `package.json`, create a `prettier.config.mjs` and add the following lines to it.
-
-```js
-// prettier.config.mjs
-import config from '@hiddenraven/prettier-config/with-tailwind'
+```mjs
+import configWithTailwind from '@hiddenraven/prettier-config/with-tailwind'
 
 export default {
-  // If your tailwind.config is not at the root of the project
-  tailwindConfig: './path/to/tailwind.config.ts'
+  ...configWithTailwind,
+  // When using Tailwind CSS v4 you must specify your CSS file entry point, which includes your theme, custom utilities, and other Tailwind configuration options. To do this, use the tailwindStylesheet option in your Prettier configuration.
+  // Note that paths are resolved relative to the Prettier configuration file.
+  tailwindStylesheet: './src/app.css'
 
-  // Any other overwritten rules...
+  // If you still have a Tailwind JS config add the path to it.
+   "tailwindConfig": "./tailwind.config.js"
 }
 ```

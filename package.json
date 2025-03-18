@@ -21,10 +21,14 @@
   },
   "prettier": "@hiddenraven/prettier-config",
   "devDependencies": {
-    "@changesets/cli": "^2.27.10",
-    "prettier": "^3.4.2",
-    "turbo": "^2.3.3",
-    "typescript": "^5.7.2"
+    "@changesets/cli": "^2.28.1",
+    "@hiddenraven/prettier-config": "workspace:*",
+    "prettier": "^3.5.3",
+    "turbo": "^2.4.4",
+    "typescript": "^5.8.2"
   },
-  "packageManager": "pnpm@9.15.0"
+  "pnpm": {
+    "neverBuiltDependencies": []
+  },
+  "packageManager": "pnpm@10.6.4"
 }

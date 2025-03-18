@@ -18,13 +18,13 @@
   },
   "prettier": "./src/index.mjs",
   "dependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^4.4.0",
-    "prettier": "^3.4.2",
-    "prettier-plugin-packagejson": "^2.5.6",
+    "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
+    "prettier": "^3.5.3",
+    "prettier-plugin-packagejson": "^2.5.10",
     "prettier-plugin-tailwindcss": "^0.6.9"
   },
   "devDependencies": {
     "@hiddenraven/tsconfig": "workspace:*",
-    "typescript": "^5.7.2"
+    "typescript": "^5.8.2"
   }
 }

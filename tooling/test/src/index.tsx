@@ -1,5 +1,7 @@
 // This file is used to test the tooling setup
 
+// const hello = 'world'
+
 export const test = () => {
   // console.log(process.env.NODE_ENV)
 
@@ -7,7 +9,7 @@ export const test = () => {
     <div
       className="overflow-hidden bg-red-500 text-white"
       // onClick={() => {
-      //   console.log('')
+      //   console.log('clicked')
       // }}
     >
       test

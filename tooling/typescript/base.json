@@ -21,6 +21,8 @@
     "module": "preserve",
     "noEmit": true,
 
+    "erasableSyntaxOnly": true,
+
     "lib": ["es2022"]
   },
   "exclude": ["node_modules"]
