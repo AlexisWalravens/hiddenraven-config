@@ -1,5 +1,11 @@
 # @hiddenraven/prettier-config
 
+## 0.4.0
+
+### Minor Changes
+
+- baaff0f: Update dependencies
+
 ## 0.3.0
 
 ### Minor Changes
